@@ -1,0 +1,28 @@
+/* website css*/
+body {    /*fondo*/
+  background:#00BFFF;
+}
+
+head {    /*Menú*/
+  color:	#FFFFFF;
+}
+
+title {    /*titulo*/
+  color:#00BFFF;
+}
+
+p {        /*escritura*/
+  color:#000000;
+}
+
+a [href="https://github.com/Jisusboy"]{    /*enlaces*/
+  color:#32CD32;
+}
+
+buttom {    /*botones*/
+  color:#7CFC00;
+}
+
+class widget { /*color widget´s*/
+  color:#FF4500;
+}
