@@ -30,6 +30,11 @@ color:verdiana,#3ba7e1 /*azul*/;
 display:inline-block;
 }
 
+img {
+border-radius:10px;
+}
+
+
 En el servidior falta:
 
 1- hacer un boton para dar el ip y port
