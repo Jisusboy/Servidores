@@ -8,6 +8,28 @@ agregar imagen de pestaña web
     }
 </style>
 
+/*Otra forma fuente de texto*/
+
+p {
+font-family:"Comic Sans MS";
+font-size: tamaño;
+font-wight: tipo;
+text-align: center;
+text-decoration:underline;
+text-shadow:5px 5px 5px #00000;
+}
+
+/*link´s*/
+
+a:hover {
+text-decoration:underline;
+}
+
+a:visited {
+color:verdiana,#3ba7e1 /*azul*/;
+display:inline-block;
+}
+
 En el servidior falta:
 
 1- hacer un boton para dar el ip y port
