@@ -1,3 +1,5 @@
+div a /*para enlaces en css*/
+
 En el servidior falta:
 
 1- hacer un boton para dar el ip y port
