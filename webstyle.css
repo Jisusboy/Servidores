@@ -4,7 +4,8 @@ body {    /*fondo*/
 }
 
 head {    /*Menú*/
-  color:	#FFFFFF;
+  color:#FFFFFF;
+  float:left;
 }
 
 title {    /*titulo*/
