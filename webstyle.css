@@ -10,10 +10,15 @@ head {    /*Menú*/
 
 title {    /*titulo*/
   color:#00BFFF;
+  text-shadow:5px 5px 5px ##000000 ;
+  font-family:"Comic Sans MS";
+  text-align: center;
+  
 }
 
 p {        /*escritura*/
   color:#000000;
+  font-family:"Comic Sans MS";
 }
 
 a [href="https://github.com/Jisusboy"]{    /*enlaces*/
@@ -22,6 +27,8 @@ a [href="https://github.com/Jisusboy"]{    /*enlaces*/
 
 buttom {    /*botones*/
   color:#7CFC00;
+  margin:?px ?px ?px ?px;  /*dependiendo del boton y su lugar (al tener varios botones agragarle un div y/ó class)*/
+  padding:10px 20px;
 }
 
 class widget { /*color widget´s*/
