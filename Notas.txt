@@ -1,6 +1,12 @@
 agregar imagen de pestaña web
 
+/*imagen y al lado texto*/
 
+<style>
+    img {
+      float: left;  
+    }
+</style>
 
 En el servidior falta:
 
