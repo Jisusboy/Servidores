@@ -1,0 +1,5 @@
+En el servidior falta:
+
+1- hacer un boton para dar el ip y port
+2- probar que funcione
+3- verificar si sirve al entrar al  server
