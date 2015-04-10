@@ -20,7 +20,6 @@ title {    /*titulo*/
   text-shadow:5px 5px 5px ##000000 ;
   font-family:"Comic Sans MS";
   text-align: center;
-  
 }
 
 p {        /*escritura*/
@@ -52,5 +51,5 @@ div table{
 }
 
 footer {
-  color:#000000; 
+  background:#000000; 
 }
