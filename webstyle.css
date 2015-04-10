@@ -1,4 +1,11 @@
 /* website css*/
+
+img {
+  border-radius:15px;
+  float:left;
+  
+}
+
 body {    /*fondo*/
   background:#00BFFF;
 }
@@ -21,8 +28,16 @@ p {        /*escritura*/
   font-family:"Comic Sans MS";
 }
 
-a [href="https://github.com/Jisusboy"]{    /*enlaces*/
+article p {
+ color:#000000;
+ font-family:"Comic Sans MS";
+}
+
+
+div a [href="https://twitter.com/skrigueztep"]{    /*enlaces*/
   color:#32CD32;
+  border:10px 20px;
+  margin:5px 10px;
 }
 
 buttom {    /*botones*/
@@ -31,8 +46,9 @@ buttom {    /*botones*/
   padding:10px 20px;
 }
 
-class widget { /*color widget´s*/
-  color:#FF4500;
+div table{
+  color:#000000;
+  border:10px 25px;
 }
 
 footer {
