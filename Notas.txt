@@ -36,7 +36,7 @@ border-radius:10px;
 
 
 En el servidior falta:
-
+0- crear archivo info.php
 1- hacer un boton para dar el ip y port
 2- probar que funcione
 3- verificar si sirve al entrar al  server
