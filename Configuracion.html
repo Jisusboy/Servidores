@@ -1,8 +1,28 @@
 <htmml>
   <meta leng="es" content="http://servidoresjisusboy.com" />
+  <scritp>
+     funtion ValiderDataPOST (){
+         var VerificationData= true;
+         
+           if (Document.frm-CreUser-post.Usuario.value==""){
+              alert ("Todos Los Campos Son Requeridos Para Su Registro");
+              Document.frm-CreUser-post.Usuario.focus ();
+              verificar = false;
+           }elseif (Document.frm-CreUser-post.Password.value==""){
+              alert ("Todos Los Campos Son Requeridos Para Su Registro");
+              Document.frm-CreUser-post.Password.focus ();
+              verificar = false;
+           }
+           
+           if (verificar){
+           document.frm-CreUser-post.submit ();
+           }
+  </scritp>
           <div>
              <img src="" width="" alt="servidores/img/logo.ico">  <!--agregar direcion de imagen (direccion,nombre, tipo archivo)-->
           </div>
+          
+          
    <head>
    <title face="Comic Sans MS" id="tutilopagina"> Servidores </title>
    <link rel="stylesheet" href="css/webstyle.css">  <!--agregar css una vez terminado -->
@@ -70,15 +90,18 @@
    
    
    
-   
-   <div><a href="https://servidoresjisusboy.com/Crear-Servidor"></a>
+   <!--formulario en categoria marcada-->
+   <div><a href="https://servidoresjisusboy.com/Register"></a>
      <head>
-       <title face="Comic Sans MS" id="CreateServer" content="permanent">Crea Tu Seridor Aqui!</title>
-       <form>
-       <input type="text" placeholder="Nickname">
-       <input type="email" placeholder="E-mail">
-       <input type="paswword" placeholder="password">
-       <input type="submit" class="SendInfoPlay"value="Enviar">
+       <title face="Comic Sans MS" id="RegUser" content="permanent">Crea Tu Seridor Aqui!</title>
+       <form name="frm-CreUser-post"  action="Sendata.php" method="post" enctype="aplication/x-www-form-urlencoded">
+           <label>Ingrese su Nickname:</label>
+       <input type="text" placeholder="Nickname" name="Usuario"><br />
+           <label>Ingrese su Contraseña</label>
+       <input type="paswword" placeholder="Password" name="ContUser"><br />
+ 
+       <input type="hidden" name="enviar-HDN" value="post"/>
+       <input type="submit" class="SendInfoPlay" value="Enviar" name="Send-btn" id="Send">
        </form>
    <div>
      <img src="" width="" alt="servidores/games/ima.jpg" /> <!--agregar imagenes-->
@@ -87,9 +110,20 @@
    </div>
    
    
+   <!--archivo sendata.php (crear archivo)-->
+   <?
+     if  (isset ($_POST ["Send-btn" ])){
+     echo "Sus Datos Son: <br /><br /> Nickname:".$_POST ["Usuario"]".<br /> Password:".$_POST ["ContUser"]";
+     }
+   ?>
+   <!--archivo sendata.php (crear archivo)-->
+   
+   <!--archivo sendata.php (crear archivo)-->
+   
+   <!--archivo sendata.php (crear archivo)-->
    
    
-    
+    <!--tala en categoria mostrada-->
    <div><a ref="https://servidoresjisusboy.com/Serviodres-Activos"></a>
         <head><title class="TabActSer" face="Comic Sans MS" content="permanent"> Servidores Activos </title></head>
              <h1> Servidores Activos </h1>
