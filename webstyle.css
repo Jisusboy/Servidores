@@ -13,6 +13,7 @@ body {    /*fondo*/
 head {    /*Menú*/
   color:#FFFFFF;
   float:left;
+  border:none;
 }
 
 title {    /*titulo*/
@@ -29,7 +30,7 @@ p {        /*escritura*/
 
 article p {
  color:#000000;
- font-family:"Comic Sans MS";
+ font-family:"Franklin Gothic Book";
 }
 
 
@@ -43,13 +44,16 @@ buttom {    /*botones*/
   color:#7CFC00;
   margin:?px ?px ?px ?px;  /*dependiendo del boton y su lugar (al tener varios botones agragarle un div y/ó class)*/
   padding:10px 20px;
+  border:none;
 }
 
 div table{
   color:#000000;
   border:10px 25px;
+  border:none;
 }
 
 footer {
   background:#000000; 
+  border:none;
 }
